@@ -1,0 +1,1 @@
+for(let i=0;i<20;i++){let h=document.createElement('div');h.className='heart';h.innerHTML='❤';h.style.left=Math.random()*100+'vw';document.body.appendChild(h)}yes.onclick=()=>{step1.style.display='none';step2.style.display='block'};no.onmouseover=()=>{no.style.position='fixed';no.style.left=Math.random()*80+'vw';no.style.top=Math.random()*80+'vh'};

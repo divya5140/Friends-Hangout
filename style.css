@@ -1,0 +1,1 @@
+body{font-family:Arial;background:linear-gradient(135deg,#ff9ecf,#a8d8ff);display:flex;justify-content:center;align-items:center;height:100vh}button{margin:8px;padding:10px 20px}.heart{position:fixed;animation:f 6s linear infinite}@keyframes f{from{transform:translateY(100vh)}to{transform:translateY(-10vh)}}
