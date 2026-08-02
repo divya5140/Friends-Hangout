@@ -1,1 +1,95 @@
-<html><head><link rel='stylesheet' href='style.css'></head><body><div id='step1'><h1>Hey Supu! 💙</h1><p>Shall we hang out?</p><button id='yes'>Yes</button><button id='no'>No</button></div><div id='step2' style='display:none'><form action='https://formsubmit.co/divyask.51403@gmail.com' method='POST'><input type='hidden' name='_next' value='https://divya5140.github.io/Friends-Hangout/thankyou.html'><input type='hidden' name='_captcha' value='false'><button name='Choice' value='Tea'>Tea</button><button name='Choice' value='Juice'>Juice</button><button name='Choice' value='Dinner'>Dinner</button></form></div><script src='script.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey Supu 💙</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="hearts"></div>
+
+<div class="container" id="step1">
+
+    <div class="card">
+
+        <h1>Hey Supu! 💙</h1>
+
+        <p class="subtitle">
+            Shall we hang out? 😊
+        </p>
+
+        <div class="buttons">
+
+            <button id="yesBtn">
+                Yes 🥳
+            </button>
+
+            <button id="noBtn">
+                No 🙈
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container hidden" id="step2">
+
+    <div class="card">
+
+        <h2>Yay!! ❤️</h2>
+
+        <p>Choose what you'd like 😊</p>
+
+        <form
+            action="https://formsubmit.co/divyask.51403@gmail.com"
+            method="POST">
+
+            <input type="hidden"
+                   name="_subject"
+                   value="Supu Hangout Choice">
+
+            <input type="hidden"
+                   name="_captcha"
+                   value="false">
+
+            <input type="hidden"
+                   name="_next"
+                   value="https://divya5140.github.io/Friends-Hangout/thankyou.html">
+
+            <button
+                type="submit"
+                name="Choice"
+                value="Tea">
+                ☕ Tea
+            </button>
+
+            <button
+                type="submit"
+                name="Choice"
+                value="Juice">
+                🧃 Juice
+            </button>
+
+            <button
+                type="submit"
+                name="Choice"
+                value="Dinner">
+                🍽️ Dinner
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
